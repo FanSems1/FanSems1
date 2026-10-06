@@ -7,6 +7,7 @@
 <div align="center">
   <a href="mailto:sukarnosamuel1@gmail.com"><img src="https://img.shields.io/badge/EMAIL-LET'S%20TALK-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0B1020" alt="Email Samuel" /></a>
   <a href="https://github.com/FanSems1"><img src="https://img.shields.io/badge/GITHUB-FanSems1-22D3EE?style=for-the-badge&logo=github&logoColor=white&labelColor=0B1020" alt="FanSems1 on GitHub" /></a>
+  <a href="https://fansems1.github.io/FanSems1/game/"><img src="https://img.shields.io/badge/PLAY-PETAL%20QUEST-F472B6?style=for-the-badge&logo=gamejolt&logoColor=white&labelColor=0B1020" alt="Play Petal Quest" /></a>
   <img src="https://img.shields.io/badge/LOCATION-JAKARTA-F472B6?style=for-the-badge&logo=googlemaps&logoColor=white&labelColor=0B1020" alt="Jakarta" />
 </div>
 
