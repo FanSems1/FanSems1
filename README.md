@@ -30,6 +30,14 @@ I'm **Samuel Sukarno**, a Front-End Engineer based in **Jakarta** who turns ambi
 ## ❖ GitHub constellations
 
 <div align="center">
+  <a aria-disabled="true" tabindex="-1">
+    <img width="100%" src="https://raw.githubusercontent.com/FanSems1/FanSems1/main/assets/stats-console.svg" alt="Animated celestial GitHub activity console" draggable="false" />
+  </a>
+</div>
+
+<br />
+
+<div align="center">
   <img width="49%" src="https://github-readme-stats.vercel.app/api?username=FanSems1&show_icons=true&hide_border=false&border_radius=14&bg_color=0D0B1F&border_color=C4B5FD&title_color=F9A8D4&icon_color=A5F3FC&text_color=F5F3FF&ring_color=F9A8D4" alt="Samuel's GitHub statistics" />
   <img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=FanSems1&hide_border=false&border_radius=14&background=0D0B1F&border=C4B5FD&stroke=332B52&ring=F9A8D4&fire=F9A8D4&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=A5F3FC&sideLabels=E9D5FF&dates=A8A1C0" alt="Samuel's contribution streak" />
 </div>
