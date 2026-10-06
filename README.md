@@ -1,5 +1,7 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/FanSems1/FanSems1/main/assets/samuel-cyrene-banner.gif" width="100%" alt="Samuel Sukarno — Front-End Engineer" draggable="false" />
+  <a aria-disabled="true" tabindex="-1">
+    <img src="https://raw.githubusercontent.com/FanSems1/FanSems1/main/assets/samuel-cyrene-banner.gif" width="100%" alt="Samuel Sukarno — Front-End Engineer" draggable="false" />
+  </a>
 </div>
 
 <br />
