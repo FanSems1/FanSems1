@@ -1,5 +1,7 @@
 <div align="center">
-  <img src="./assets/samuel-cyrene-banner.gif?v=1" width="100%" alt="Animated Cyrene banner: Samuel Sukarno, Front-End Engineer" />
+  <a href="https://fansems1.github.io/FanSems1/game/">
+    <img src="./assets/samuel-cyrene-banner.gif?v=1" width="100%" alt="Enter Samuel's interactive isekai profile" />
+  </a>
 </div>
 
 <br />
