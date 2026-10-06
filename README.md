@@ -1,7 +1,5 @@
 <div align="center">
-  <a href="https://fansems1.github.io/FanSems1/game/">
-    <img src="./assets/samuel-cyrene-banner.gif?v=1" width="100%" alt="Enter Samuel's interactive isekai profile" />
-  </a>
+  <img src="https://raw.githubusercontent.com/FanSems1/FanSems1/main/assets/samuel-cyrene-banner.gif" width="100%" alt="Samuel Sukarno — Front-End Engineer" draggable="false" />
 </div>
 
 <br />
