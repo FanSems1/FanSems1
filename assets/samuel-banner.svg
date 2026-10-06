@@ -1,55 +1,46 @@
-<svg width="1200" height="570" viewBox="0 0 1200 570" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
- <title id="title">Samuel Sukarno — Anime Handheld Console</title>
- <desc id="desc">A modern animated handheld game console showing an original fantasy anime heroine and Samuel's developer save profile.</desc>
+<svg width="1200" height="520" viewBox="0 0 1200 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+ <title id="title">Samuel Sukarno — JRPG Character Reveal</title>
+ <desc id="desc">A cinematic anime game character splash screen introducing Samuel Sukarno, Front-End Engineer from Jakarta.</desc>
  <defs>
-  <linearGradient id="shell" x1="65" y1="40" x2="1135" y2="530"><stop stop-color="#F8F4FF"/><stop offset=".42" stop-color="#DCD7F8"/><stop offset="1" stop-color="#A9C8EB"/></linearGradient>
-  <linearGradient id="edge" x1="120" y1="60" x2="1080" y2="530"><stop stop-color="#FFB8DA"><animate attributeName="stop-color" values="#FFB8DA;#B9A7FF;#9CEBFF;#FFB8DA" dur="7s" repeatCount="indefinite"/></stop><stop offset="1" stop-color="#8DDFFF"><animate attributeName="stop-color" values="#8DDFFF;#FFB8DA;#B9A7FF;#8DDFFF" dur="7s" repeatCount="indefinite"/></stop></linearGradient>
-  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff" stop-opacity=".3"/><stop offset="1" stop-color="#7C6FAD" stop-opacity=".12"/></linearGradient>
-  <radialGradient id="shine"><stop stop-color="#fff" stop-opacity=".9"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
-  <filter id="shadow" x="-30%" y="-40%" width="160%" height="190%"><feDropShadow dy="22" stdDeviation="22" flood-color="#291A48" flood-opacity=".48"/></filter>
+  <linearGradient id="fade" x1="1200" y1="260" x2="460" y2="260"><stop stop-color="#070817" stop-opacity=".98"/><stop offset=".55" stop-color="#0B0A1D" stop-opacity=".78"/><stop offset="1" stop-color="#111229" stop-opacity="0"/></linearGradient>
+  <linearGradient id="bottom" x1="600" y1="520" x2="600" y2="265"><stop stop-color="#070817" stop-opacity=".96"/><stop offset="1" stop-color="#070817" stop-opacity="0"/></linearGradient>
+  <linearGradient id="magic" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFB7DC"><animate attributeName="stop-color" values="#FFB7DC;#B8A6FF;#8EEAFF;#FFB7DC" dur="7s" repeatCount="indefinite"/></stop><stop offset="1" stop-color="#8EEAFF"><animate attributeName="stop-color" values="#8EEAFF;#FFB7DC;#B8A6FF;#8EEAFF" dur="7s" repeatCount="indefinite"/></stop></linearGradient>
+  <radialGradient id="halo"><stop stop-color="#F0ABFC" stop-opacity=".42"/><stop offset="1" stop-color="#F0ABFC" stop-opacity="0"/></radialGradient>
+  <pattern id="stars" width="90" height="70" patternUnits="userSpaceOnUse"><circle cx="11" cy="18" r="1" fill="white" opacity=".35"/><circle cx="63" cy="49" r=".7" fill="#BAE6FD" opacity=".5"/></pattern>
   <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-  <filter id="soft"><feGaussianBlur stdDeviation="15"/></filter>
-  <clipPath id="screen"><rect x="222" y="99" width="756" height="372" rx="24"/></clipPath>
+  <filter id="shadow"><feDropShadow dy="7" stdDeviation="7" flood-color="#020617" flood-opacity=".85"/></filter>
+  <clipPath id="frame"><path d="M24 61L63 22H1137L1176 61V459L1137 498H63L24 459Z"/></clipPath>
   <style>
-   .ui{font-family:Inter,Segoe UI,Arial,sans-serif}.serif{font-family:Georgia,Times New Roman,serif}.mono{font-family:Consolas,monospace}.pulse{animation:pulse 2.5s ease-in-out infinite}.blink{animation:blink 1.1s steps(2) infinite}.float{animation:float 4s ease-in-out infinite}.spin{transform-origin:center;animation:spin 16s linear infinite}.shimmer{animation:shimmer 4s linear infinite}.press{animation:press 3s ease-in-out infinite}
-   @keyframes pulse{50%{opacity:.35}}@keyframes blink{50%{opacity:0}}@keyframes float{50%{transform:translateY(-7px)}}@keyframes spin{to{transform:rotate(360deg)}}@keyframes shimmer{from{transform:translateX(-400px)}to{transform:translateX(900px)}}@keyframes press{50%{transform:scale(.92)}}
+   .ui{font-family:Inter,Segoe UI,Arial,sans-serif}.serif{font-family:Georgia,Times New Roman,serif}.mono{font-family:Consolas,monospace}.pulse{animation:pulse 2.4s ease-in-out infinite}.blink{animation:blink 1.1s steps(2) infinite}.float{animation:float 4s ease-in-out infinite}.spin{transform-origin:center;animation:spin 18s linear infinite}.dash{stroke-dasharray:8 13;animation:dash 7s linear infinite}.reveal{animation:reveal 5s ease-in-out infinite}.drift1{animation:drift1 7s linear infinite}.drift2{animation:drift2 9s linear infinite}
+   @keyframes pulse{50%{opacity:.3}}@keyframes blink{50%{opacity:0}}@keyframes float{50%{transform:translateY(-6px)}}@keyframes spin{to{transform:rotate(360deg)}}@keyframes dash{to{stroke-dashoffset:-168}}@keyframes reveal{0%,12%{opacity:0;transform:translateX(25px)}28%,88%{opacity:1;transform:translateX(0)}100%{opacity:0}}@keyframes drift1{from{transform:translate(0,-40px) rotate(0)}to{transform:translate(90px,520px) rotate(240deg)}}@keyframes drift2{from{transform:translate(0,-80px) rotate(0)}to{transform:translate(-100px,540px) rotate(-260deg)}}
   </style>
  </defs>
- <rect width="1200" height="570" rx="32" fill="#090817"/><circle cx="180" cy="120" r="160" fill="#D67DE8" opacity=".12" filter="url(#soft)"/><circle cx="1050" cy="450" r="190" fill="#62D9FF" opacity=".12" filter="url(#soft)"/>
- <g opacity=".14" fill="#D8D0FF"><circle cx="62" cy="74" r="2"/><circle cx="1120" cy="70" r="2"/><circle cx="72" cy="470" r="2"/><circle cx="1115" cy="500" r="2"/><path d="M107 120l3 8 8 3-8 3-3 8-3-8-8-3 8-3zM1082 180l3 8 8 3-8 3-3 8-3-8-8-3 8-3z"/></g>
- <!-- console body -->
- <g filter="url(#shadow)"><path d="M86 87C95 42 132 22 177 30L1023 30C1068 22 1105 42 1114 87L1160 474C1167 527 1118 551 1076 523L1005 477H195L124 523C82 551 33 527 40 474Z" fill="url(#shell)" stroke="url(#edge)" stroke-width="3"/><path d="M102 94C109 60 134 48 170 52H1030C1066 48 1091 60 1098 94" stroke="white" stroke-opacity=".72" stroke-width="3"/></g>
- <rect x="202" y="79" width="796" height="412" rx="34" fill="#161329" stroke="#6F6A92" stroke-width="3"/><rect x="214" y="91" width="772" height="388" rx="27" fill="#05040B"/>
- <!-- artwork screen -->
- <g clip-path="url(#screen)"><image href="./samuel-anime-world.png" x="222" y="99" width="756" height="372" preserveAspectRatio="xMidYMid slice"/>
-  <rect x="222" y="99" width="756" height="372" fill="url(#glass)" opacity=".28"/>
-  <path d="M222 420C420 362 512 453 720 397S900 379 978 343V471H222Z" fill="#070717" opacity=".28"/>
-  <!-- game save UI -->
-  <g transform="translate(665 139)"><animateTransform attributeName="transform" type="translate" values="665 139;665 132;665 139" dur="4s" repeatCount="indefinite"/><rect width="278" height="245" rx="18" fill="#09091A" fill-opacity=".68" stroke="#F5D0FE" stroke-opacity=".58"/><path d="M18 20H63M215 20H260M18 225H63M215 225H260" stroke="url(#edge)"/>
-   <text x="139" y="39" text-anchor="middle" class="mono" font-size="9" letter-spacing="3" fill="#FBCFE8">SAVE DATA 01</text>
-   <text x="139" y="79" text-anchor="middle" class="serif" font-size="25" font-weight="700" fill="white">Samuel Sukarno</text>
-   <text x="139" y="103" text-anchor="middle" class="mono" font-size="10" letter-spacing="2" fill="#A5F3FC">FRONT-END ENGINEER</text>
-   <line x1="30" y1="121" x2="248" y2="121" stroke="#fff" stroke-opacity=".2"/>
-   <text x="31" y="144" class="mono" font-size="9" fill="#D8B4FE">PLAYER</text><text x="247" y="144" text-anchor="end" class="mono" font-size="9" fill="white">@FanSems1</text>
-   <text x="31" y="166" class="mono" font-size="9" fill="#D8B4FE">REGION</text><text x="247" y="166" text-anchor="end" class="mono" font-size="9" fill="white">JAKARTA</text>
-   <text x="31" y="188" class="mono" font-size="9" fill="#D8B4FE">STATUS</text><circle cx="196" cy="184" r="4" fill="#6EE7B7" filter="url(#glow)"/><text x="247" y="188" text-anchor="end" class="mono" font-size="9" fill="#6EE7B7">ONLINE</text>
-   <rect x="30" y="204" width="218" height="27" rx="13.5" fill="url(#edge)"/><text x="139" y="222" text-anchor="middle" class="mono" font-size="10" font-weight="700" fill="#171125">▶ CONTINUE</text><rect x="23" y="197" width="232" height="41" rx="20" fill="none" stroke="#fff" opacity=".35" class="pulse"/>
+ <rect width="1200" height="520" rx="28" fill="#070817"/>
+ <g clip-path="url(#frame)">
+  <image href="./samuel-anime-world.png" width="1200" height="520" preserveAspectRatio="xMidYMid slice"/>
+  <rect width="1200" height="520" fill="url(#stars)"/>
+  <rect x="430" width="770" height="520" fill="url(#fade)"/><rect y="260" width="1200" height="260" fill="url(#bottom)"/>
+  <circle cx="347" cy="227" r="190" fill="url(#halo)" class="pulse"/>
+  <!-- celestial rings behind character -->
+  <g transform="translate(346 230)" opacity=".55"><ellipse rx="185" ry="185" stroke="url(#magic)" stroke-width="1.5" stroke-dasharray="8 13" class="spin"/><ellipse rx="155" ry="78" stroke="#FBCFE8" transform="rotate(-18)" class="dash"/><path d="M0-207L6-190 24-184 6-177 0-160-6-177-24-184-6-190Z" fill="#FFF7FC" filter="url(#glow)"/></g>
+  <!-- reveal info -->
+  <g transform="translate(675 92)" class="reveal">
+   <text class="mono" font-size="10" letter-spacing="4" fill="#F9A8D4">NEW CHARACTER ACQUIRED</text>
+   <g transform="translate(0 30)" fill="#FFE5A3" filter="url(#glow)"><path d="M8 0l2 6 6 2-6 2-2 6-2-6-6-2 6-2z"/><path transform="translate(23)" d="M8 0l2 6 6 2-6 2-2 6-2-6-6-2 6-2z"/><path transform="translate(46)" d="M8 0l2 6 6 2-6 2-2 6-2-6-6-2 6-2z"/><path transform="translate(69)" d="M8 0l2 6 6 2-6 2-2 6-2-6-6-2 6-2z"/><path transform="translate(92)" d="M8 0l2 6 6 2-6 2-2 6-2-6-6-2 6-2z"/></g>
+   <text y="103" class="serif" font-size="52" font-weight="700" fill="white" filter="url(#shadow)">Samuel Sukarno</text>
+   <rect y="119" width="418" height="3" rx="1.5" fill="#334155"/><rect y="119" width="315" height="3" rx="1.5" fill="url(#magic)"><animate attributeName="width" values="0;315;315" keyTimes="0;.65;1" dur="4s" repeatCount="indefinite"/></rect>
+   <text y="151" class="mono" font-size="13" letter-spacing="3" fill="#BAE6FD">FRONT-END ENGINEER</text>
+   <g transform="translate(0 184)"><path d="M23 0L46 13V39L23 52 0 39V13Z" fill="#17182E" stroke="url(#magic)"/><path d="M14 27L21 34 34 18" stroke="#A5F3FC" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><text x="64" y="20" class="mono" font-size="9" fill="#94A3B8">PATH</text><text x="64" y="40" class="ui" font-size="15" font-weight="700" fill="#F8FAFC">The Architect</text></g>
+   <g transform="translate(225 184)"><circle cx="25" cy="26" r="25" fill="#17182E" stroke="#F9A8D4"/><path d="M25 10C31 18 38 21 38 29A13 13 0 0 1 12 29C12 21 19 18 25 10Z" fill="url(#magic)"/><text x="62" y="20" class="mono" font-size="9" fill="#94A3B8">REGION</text><text x="62" y="40" class="ui" font-size="15" font-weight="700" fill="#F8FAFC">Jakarta</text></g>
+   <text y="279" class="serif" font-size="15" font-style="italic" fill="#CBD5E1">“Turning complex ideas into experiences people love.”</text>
+   <g transform="translate(0 313)"><rect width="418" height="48" rx="24" fill="#0C0C20" fill-opacity=".72" stroke="url(#magic)"/><circle cx="29" cy="24" r="6" fill="#6EE7B7" filter="url(#glow)"/><text x="49" y="28" class="mono" font-size="11" letter-spacing="2" fill="white">ENTER THE JOURNEY</text><text x="386" y="28" text-anchor="middle" class="ui blink" font-size="16" fill="#FBCFE8">›</text></g>
   </g>
-  <g class="shimmer"><path d="M-180 75L-80 75 180 495H80Z" fill="white" opacity=".07"/></g>
+  <!-- drifting petals -->
+  <g fill="#FFD6EA"><ellipse cx="120" cy="-20" rx="5" ry="11" class="drift1"/><ellipse cx="480" cy="-60" rx="4" ry="9" class="drift2"/><ellipse cx="845" cy="-35" rx="5" ry="10" class="drift1" style="animation-delay:-3s"/><ellipse cx="1080" cy="-10" rx="4" ry="9" class="drift2" style="animation-delay:-5s"/></g>
  </g>
- <!-- left controls -->
- <g><circle cx="125" cy="188" r="55" fill="#C6C3E1" stroke="#9994BD" stroke-width="3"/><circle cx="125" cy="188" r="39" fill="#706B91"/><circle cx="125" cy="188" r="31" fill="#8B86A8" stroke="#BEBADD"/><ellipse cx="113" cy="176" rx="11" ry="7" fill="white" opacity=".18"/>
- <g transform="translate(125 325)"><circle r="57" fill="#CAC7E4" stroke="#9994BD" stroke-width="3"/><path d="M-12-39H12V-12H39V12H12V39H-12V12H-39V-12H-12Z" fill="#686382"/><circle r="10" fill="#77718F"/></g>
- <rect x="90" y="416" width="70" height="8" rx="4" fill="#A7A3C5"/><rect x="106" y="428" width="38" height="8" rx="4" fill="#A7A3C5"/></g>
- <!-- right controls -->
- <g transform="translate(1071 205)"><circle r="77" fill="#C9C5E4" stroke="#9994BD" stroke-width="3"/>
-  <g class="press"><circle cy="-43" r="24" fill="#F1A7C8" stroke="#B875A0"/><text y="-38" text-anchor="middle" class="ui" font-size="14" font-weight="700" fill="white">Y</text></g>
-  <circle cx="43" r="24" fill="#8EDCF2" stroke="#5AA9C5"/><text x="43" y="5" text-anchor="middle" class="ui" font-size="14" font-weight="700" fill="white">A</text>
-  <circle cy="43" r="24" fill="#B5A5ED" stroke="#8070BE"/><text y="48" text-anchor="middle" class="ui" font-size="14" font-weight="700" fill="white">X</text>
-  <circle cx="-43" r="24" fill="#F5CE82" stroke="#C29B52"/><text x="-43" y="5" text-anchor="middle" class="ui" font-size="14" font-weight="700" fill="white">B</text></g>
- <g transform="translate(1070 347)"><circle r="43" fill="#C6C3E1" stroke="#9994BD" stroke-width="3"/><circle r="29" fill="#716C91"/><circle r="21" fill="#8B86A8"/></g>
- <!-- speaker + brand -->
- <g fill="#817C9F"><circle cx="1036" cy="424" r="3"/><circle cx="1050" cy="420" r="3"/><circle cx="1064" cy="416" r="3"/><circle cx="1078" cy="412" r="3"/><circle cx="1050" cy="434" r="3"/><circle cx="1064" cy="430" r="3"/><circle cx="1078" cy="426" r="3"/><circle cx="1092" cy="422" r="3"/></g>
- <text x="600" y="518" text-anchor="middle" class="serif" font-size="14" font-style="italic" letter-spacing="4" fill="#8A84AA">DREAMLINK</text><circle cx="600" cy="542" r="4" fill="#77E6D1" filter="url(#glow)" class="blink"/>
- <path d="M314 52H457M743 52H886" stroke="url(#edge)" stroke-width="4" stroke-linecap="round" filter="url(#glow)" class="pulse"/>
+ <!-- ornate game frame -->
+ <path d="M24 61L63 22H1137L1176 61V459L1137 498H63L24 459Z" stroke="url(#magic)" stroke-width="2"/>
+ <path d="M24 127V61L63 22H145M1055 22H1137L1176 61V127M24 393V459L63 498H145M1055 498H1137L1176 459V393" stroke="url(#magic)" stroke-width="5" filter="url(#glow)"/>
+ <g transform="translate(600 22)"><path d="M0-13L10 0 0 13-10 0Z" fill="url(#magic)" filter="url(#glow)"/><path d="M-92 0H-17M17 0H92" stroke="url(#magic)"/></g>
+ <text x="61" y="474" class="mono" font-size="9" letter-spacing="2" fill="#E9D5FF">@FANSEMS1</text><text x="1139" y="474" text-anchor="end" class="mono" font-size="9" letter-spacing="2" fill="#BAE6FD">STATUS // ONLINE</text>
 </svg>
