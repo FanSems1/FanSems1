@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/LOCATION-JAKARTA-F472B6?style=for-the-badge&logo=googlemaps&logoColor=white&labelColor=0B1020" alt="Jakarta" />
 </div>
 
-## 👋 About me
+## 🎮 Player profile
 
 I'm **Samuel Sukarno**, a Front-End Engineer based in **Jakarta** who turns ambitious ideas into fast, polished, and delightful web experiences.
 
@@ -19,20 +19,20 @@ I'm **Samuel Sukarno**, a Front-End Engineer based in **Jakarta** who turns ambi
 - 🧩 Creating reusable components and scalable design systems
 - 🌱 Always learning, always shipping
 
-## 🛠️ Front-end toolbox
+## ⚔️ Skill loadout
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,figma,git,vscode&perline=10" alt="Samuel's front-end tools" />
 </div>
 
-## 📊 GitHub activity
+## 📈 Player stats
 
 <div align="center">
   <img width="49%" src="https://github-readme-stats.vercel.app/api?username=FanSems1&show_icons=true&theme=transparent&hide_border=true&title_color=a78bfa&icon_color=22d3ee&text_color=cbd5e1" alt="GitHub statistics" />
   <img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=FanSems1&theme=transparent&hide_border=true&ring=a78bfa&fire=22d3ee&currStreakLabel=cbd5e1" alt="GitHub streak" />
 </div>
 
-## 🌐 Let's build something memorable
+## 🤝 Start a co-op quest
 
 <div align="center">
   <a href="mailto:sukarnosamuel1@gmail.com"><strong>sukarnosamuel1@gmail.com</strong></a>
@@ -43,5 +43,5 @@ I'm **Samuel Sukarno**, a Front-End Engineer based in **Jakarta** who turns ambi
 </div>
 
 <div align="center">
-  <sub>Crafted with curiosity, caffeine, and a suspicious number of browser tabs.</sub>
+  <sub>PLAYER ONE NEVER STOPS LEARNING • NEXT LEVEL LOADING...</sub>
 </div>
