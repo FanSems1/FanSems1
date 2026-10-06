@@ -10,10 +10,11 @@ public static class BuildAnimeBanner {
     p.Id=id;p.Type=(short)type;p.Len=value.Length;p.Value=value;return p;
   }
   static Bitmap Frame(Image src,int i,int count) {
-    int w=1000,h=430; var b=new Bitmap(w,h,PixelFormat.Format24bppRgb);
+    int w=1000,h=430; var b=new Bitmap(800,344,PixelFormat.Format24bppRgb);
     using(var g=Graphics.FromImage(b)) {
       g.SmoothingMode=System.Drawing.Drawing2D.SmoothingMode.HighQuality;
       g.InterpolationMode=System.Drawing.Drawing2D.InterpolationMode.HighQualityBicubic;
+      g.ScaleTransform(.8f,.8f);
       double phase=Math.Sin(i*Math.PI*2/count), zoom=1.01+0.012*(phase+1)/2;
       int dw=(int)(w*zoom),dh=(int)(h*zoom),dx=(w-dw)/2+(int)(phase*3),dy=(h-dh)/2+(int)(phase*-3);
       g.DrawImage(src,new Rectangle(dx,dy,dw,dh));
@@ -34,8 +35,8 @@ public static class BuildAnimeBanner {
   }
   public static void Run(string input,string output) {
     using(var src=Image.FromFile(input)) {
-      int count=8; var frames=new Bitmap[count]; for(int i=0;i<count;i++) frames[i]=Frame(src,i,count);
-      var delay=new byte[count*4]; for(int i=0;i<count;i++) Array.Copy(BitConverter.GetBytes(15),0,delay,i*4,4);
+      int count=6; var frames=new Bitmap[count]; for(int i=0;i<count;i++) frames[i]=Frame(src,i,count);
+      var delay=new byte[count*4]; for(int i=0;i<count;i++) Array.Copy(BitConverter.GetBytes(20),0,delay,i*4,4);
       frames[0].SetPropertyItem(Prop(0x5100,4,delay)); frames[0].SetPropertyItem(Prop(0x5101,3,new byte[]{0,0}));
       var codec=Array.Find(ImageCodecInfo.GetImageEncoders(),c=>c.MimeType=="image/gif");
       var ep=new EncoderParameters(1); ep.Param[0]=new EncoderParameter(System.Drawing.Imaging.Encoder.SaveFlag,(long)EncoderValue.MultiFrame); frames[0].Save(output,codec,ep);
