@@ -4,15 +4,15 @@
   </a>
 </div>
 
-<br />
+<p align="center">✦ ──────────────────── ❀ ──────────────────── ✦</p>
 
 <div align="center">
-  <a href="mailto:sukarnosamuel1@gmail.com"><img src="https://img.shields.io/badge/EMAIL-LET'S%20TALK-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0B1020" alt="Email Samuel" /></a>
-  <a href="https://github.com/FanSems1"><img src="https://img.shields.io/badge/GITHUB-FanSems1-22D3EE?style=for-the-badge&logo=github&logoColor=white&labelColor=0B1020" alt="FanSems1 on GitHub" /></a>
-  <img src="https://img.shields.io/badge/LOCATION-JAKARTA-F472B6?style=for-the-badge&logo=googlemaps&logoColor=white&labelColor=0B1020" alt="Jakarta" />
+  <a href="mailto:sukarnosamuel1@gmail.com"><img src="https://img.shields.io/badge/EMAIL-LET'S%20TALK-F9A8D4?style=for-the-badge&logo=gmail&logoColor=white&labelColor=171329" alt="Email Samuel" /></a>
+  <a href="https://github.com/FanSems1"><img src="https://img.shields.io/badge/GITHUB-FanSems1-C4B5FD?style=for-the-badge&logo=github&logoColor=white&labelColor=171329" alt="FanSems1 on GitHub" /></a>
+  <img src="https://img.shields.io/badge/LOCATION-JAKARTA-A5F3FC?style=for-the-badge&logo=googlemaps&logoColor=white&labelColor=171329" alt="Jakarta" />
 </div>
 
-## 👋 About me
+## ❀ About me
 
 I'm **Samuel Sukarno**, a Front-End Engineer based in **Jakarta** who turns ambitious ideas into fast, polished, and delightful web experiences.
 
@@ -21,28 +21,43 @@ I'm **Samuel Sukarno**, a Front-End Engineer based in **Jakarta** who turns ambi
 - 🧩 Creating reusable components and scalable design systems
 - 🌱 Always learning, always shipping
 
-## 🛠️ Tech stack
+## ✦ Tech stack
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,figma,git,vscode&perline=10" alt="Samuel's front-end tools" />
 </div>
 
-## 📊 GitHub stats
+## ❖ GitHub constellations
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=FanSems1&show_icons=true&theme=transparent&hide_border=true&title_color=a78bfa&icon_color=22d3ee&text_color=cbd5e1" alt="GitHub statistics" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=FanSems1&theme=transparent&hide_border=true&ring=a78bfa&fire=22d3ee&currStreakLabel=cbd5e1" alt="GitHub streak" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=FanSems1&show_icons=true&hide_border=false&border_radius=14&bg_color=0D0B1F&border_color=C4B5FD&title_color=F9A8D4&icon_color=A5F3FC&text_color=F5F3FF&ring_color=F9A8D4" alt="Samuel's GitHub statistics" />
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=FanSems1&hide_border=false&border_radius=14&background=0D0B1F&border=C4B5FD&stroke=332B52&ring=F9A8D4&fire=F9A8D4&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=A5F3FC&sideLabels=E9D5FF&dates=A8A1C0" alt="Samuel's contribution streak" />
 </div>
 
-## 📫 Contact
+<p align="center">✧ Every commit is another star in the journey. ✧</p>
+
+## ♡ Let's connect
 
 <div align="center">
-  <a href="mailto:sukarnosamuel1@gmail.com"><strong>sukarnosamuel1@gmail.com</strong></a>
-  &nbsp;•&nbsp;
-  <a href="https://github.com/FanSems1"><strong>@FanSems1</strong></a>
-  &nbsp;•&nbsp;
-  <strong>Jakarta, Indonesia</strong>
+  <table>
+    <tr>
+      <td align="center">
+        <strong>✉ EMAIL</strong><br />
+        <a href="mailto:sukarnosamuel1@gmail.com">sukarnosamuel1@gmail.com</a>
+      </td>
+      <td align="center">
+        <strong>◈ GITHUB</strong><br />
+        <a href="https://github.com/FanSems1">@FanSems1</a>
+      </td>
+      <td align="center">
+        <strong>⌖ LOCATION</strong><br />
+        Jakarta, Indonesia
+      </td>
+    </tr>
+  </table>
 </div>
+
+<p align="center">✦ ──────────────────── ❀ ──────────────────── ✦</p>
 
 <div align="center">
   <sub>Building thoughtful interfaces, one component at a time.</sub>
